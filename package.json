@@ -1,0 +1,33 @@
+{
+  "name": "habits",
+  "main": "index.js",
+  "author": "kauan santos",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsx watch src"
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.2.0",
+    "@prisma/client": "^4.9.0",
+    "dayjs": "^1.11.7",
+    "fastify": "^4.12.0",
+    "zod": "^3.20.2"
+  },
+  "devDependencies": {
+    "@mermaid-js/mermaid-cli": "^9.3.0",
+    "@typescript-eslint/eslint-plugin": "^5.50.0",
+    "@typescript-eslint/parser": "^5.50.0",
+    "eslint": "^8.0.1",
+    "eslint-config-standard-with-typescript": "^33.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "prisma": "^4.9.0",
+    "prisma-erd-generator": "^1.2.5",
+    "tsx": "^3.12.2",
+    "typescript": "*"
+  },
+  "prisma": {
+    "seed": "tsx prisma/seed.ts"
+  }
+}
